@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|c:\\users\\aboudin\\source\\repos\\chatbox\\chatbox\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|solutionrelative:chatbox\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|c:\\users\\aboudin\\source\\repos\\chatbox\\chatbox\\model\\chatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|solutionrelative:chatbox\\model\\chatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|c:\\users\\aboudin\\source\\repos\\chatbox\\chatbox\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|solutionrelative:chatbox\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|c:\\users\\aboudin\\source\\repos\\chatbox\\chatbox\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|solutionrelative:chatbox\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aboudin\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|c:\\users\\aboudin\\source\\repos\\chatbox\\chatbox\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|solutionrelative:chatbox\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|c:\\users\\aboudin\\source\\repos\\chatbox\\chatbox\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1420A8-2591-4170-9296-F3E7F76C41B1}|Chatbox\\Chatbox.csproj|solutionrelative:chatbox\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Chatbox\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\View\\MainWindow.xaml*",
+              "RelativeToolTip": "Chatbox\\View\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T19:27:27.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Chatbox\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\AssemblyInfo.cs",
+              "RelativeToolTip": "Chatbox\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T19:17:42.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\aboudin\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\aboudin\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "ViewState": "AQIAABcAAAAAAAAAAAAmwCcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T19:12:39.269Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\App.xaml",
+              "RelativeDocumentMoniker": "Chatbox\\App.xaml",
+              "ToolTip": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\App.xaml",
+              "RelativeToolTip": "Chatbox\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T19:12:18.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Chatbox\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "Chatbox\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T19:12:11.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Chatbox\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\Model\\User.cs",
+              "RelativeToolTip": "Chatbox\\Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:05:59.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatManager.cs",
+              "DocumentMoniker": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\Model\\ChatManager.cs",
+              "RelativeDocumentMoniker": "Chatbox\\Model\\ChatManager.cs",
+              "ToolTip": "C:\\Users\\aboudin\\source\\repos\\Chatbox\\Chatbox\\Model\\ChatManager.cs",
+              "RelativeToolTip": "Chatbox\\Model\\ChatManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:00:02.711Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
