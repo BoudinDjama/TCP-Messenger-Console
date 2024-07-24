@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aboudin\\source\\repos\\remote-connection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|c:\\users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|solutionrelative:remote-connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|c:\\users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|solutionrelative:remote-connection\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|c:\\users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\model\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|solutionrelative:remote-connection\\model\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\Model\\Server.cs",
+              "RelativeDocumentMoniker": "remote-connection\\Model\\Server.cs",
+              "ToolTip": "C:\\Users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\Model\\Server.cs",
+              "RelativeToolTip": "remote-connection\\Model\\Server.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:36:11.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\Model\\Client.cs",
+              "RelativeDocumentMoniker": "remote-connection\\Model\\Client.cs",
+              "ToolTip": "C:\\Users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\Model\\Client.cs",
+              "RelativeToolTip": "remote-connection\\Model\\Client.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:10:55.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\Program.cs",
+              "RelativeDocumentMoniker": "remote-connection\\Program.cs",
+              "ToolTip": "C:\\Users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\Program.cs",
+              "RelativeToolTip": "remote-connection\\Program.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAACsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:23:24.606Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
