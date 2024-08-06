@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\remote-connection.csproj",
+      "projectUniqueName": "C:\\Users\\aboudin\\Downloads\\Chatbox\\remote-connection\\remote-connection\\remote-connection.csproj",
       "projectName": "remote-connection",
-      "projectPath": "C:\\Users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\remote-connection.csproj",
+      "projectPath": "C:\\Users\\aboudin\\Downloads\\Chatbox\\remote-connection\\remote-connection\\remote-connection.csproj",
       "packagesPath": "C:\\Users\\aboudin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aboudin\\source\\repos\\remote-connection\\remote-connection\\obj\\",
+      "outputPath": "C:\\Users\\aboudin\\Downloads\\Chatbox\\remote-connection\\remote-connection\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
