@@ -43,14 +43,14 @@ if (role == "client")
 
     await client.connectToServerAsync();
 
+    //thread to listen for incomming messages
+    new Thread(async() => { while(true) await client.receiveMessageAsync(); }).Start();
 
     while (true)
     {
+        Console.Write("You: ");
         var message = Console.ReadLine() ?? "";
-        await client.sendStream(message);
-        // await client.receiveMessageAsync();
-
-
+        await client.sendStream(message);       
         //break;
     }
 
@@ -64,7 +64,7 @@ if (role == "client")
 
 else if (role == "server")
 {   
-    await server.startServer();    
+    await server.startServer();
     
 }
 

@@ -36,6 +36,7 @@ namespace remote_connection.Model
                 await ClientSocket.ConnectAsync(IPEndPoint);
                 Console.WriteLine($"Client socket connected to {IPEndPoint.Address}:{IPEndPoint.Port}");
                 await sendStream();
+                
             }
 
             catch (SocketException se)
@@ -55,20 +56,15 @@ namespace remote_connection.Model
         }
 
 
-        public async Task sendMessageAsync(string message)
-        {       
-            var messageBytes = Encoding.UTF8.GetBytes(message);
-            await ClientSocket.SendAsync(messageBytes);
-            Console.WriteLine($"You: {message}");
-        }
-
-
         public async Task receiveMessageAsync()
         {
+
             var buffer = new byte[1_024];
             int bytesRead = await ClientSocket.ReceiveAsync(buffer);
             string message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-            Console.WriteLine($"Received message from server: {message}");
+            Client c = JsonSerializer.Deserialize<Client>(message);
+            Console.WriteLine($"{c.Username}: {c.Message}");
+
         }
 
     }

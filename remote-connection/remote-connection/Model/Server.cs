@@ -13,12 +13,12 @@ namespace remote_connection.Model
     {
         public Socket ServerSocket { get; set; }
         public IPEndPoint IPEndPoint { get; set; }
-        List <Client> Clients { get; set; }
+        public List<Socket> Clients { get; set; }
+        public Client Client { get; set; }
 
-        public int userCount { get; set; }
         public Server()
         {
-            Clients = new List <Client>();
+            Clients = new List<Socket>();
         }
 
         public async Task startServer()
@@ -28,16 +28,16 @@ namespace remote_connection.Model
                 ServerSocket.Bind(IPEndPoint);
                 ServerSocket.Listen(100);
                 Console.WriteLine("Waiting for connection...");
+
                 while (true)
                 {
                     Socket Handler = await ServerSocket.AcceptAsync();
                     Client c = await getClient(Handler);
-                    Clients.Add(c);
-
+                    Clients.Add(Handler);
                     Console.WriteLine($"Accepted connection from {c.Username}");
                    
                     
-                    _ = handleClient(Handler);
+                    _ = handleClient(Handler); //handles send and receive from clients
                 }
 
             }
@@ -49,22 +49,33 @@ namespace remote_connection.Model
 
         
 
-        public async Task handleClient(Socket socket)
+        private async Task handleClient(Socket socket)
         {
 
             while (true)
             {
-                await receiveMessageAsync(socket);
+                Client client = await receiveMessageAsync(socket);
+                await sendMessageAsyncToAll(socket, client);
             }
         }
 
-        public async Task sendMessageAsync(string message, Socket socket)
+        private async Task sendMessageAsyncToAll(Socket socket, Client client)
         {
-            var content = Encoding.UTF8.GetBytes(message);
-            await socket.SendAsync(content);
-
+            //Displaying message to all connected clients
+            foreach (Socket clientSocket in Clients)
+            {
+                //Avoiding client sender receving his own message
+                if (!clientSocket.Equals(socket))
+                {
+                    string jsonString = JsonSerializer.Serialize(client);
+                    var content = Encoding.UTF8.GetBytes(jsonString);
+                    await clientSocket.SendAsync(content);
+                }
+            }
         }
-        public async Task<Client> getClient(Socket socket)
+
+        
+        private async Task<Client> getClient(Socket socket)
         {       
             
                 var buffer = new byte[1_024];
@@ -72,13 +83,14 @@ namespace remote_connection.Model
                 return JsonSerializer.Deserialize<Client>(Encoding.UTF8.GetString(buffer, 0, bytesRead));
             
         }
-        public async Task receiveMessageAsync(Socket socket)
+        private async Task<Client> receiveMessageAsync(Socket socket)
         {
             
             var buffer = new byte[1_024];
             int bytesRead =  await socket.ReceiveAsync(buffer);
             Client client = JsonSerializer.Deserialize<Client>(Encoding.UTF8.GetString(buffer, 0, bytesRead));
             Console.WriteLine($"{client.Username}: {client.Message}");
+            return client;
 
         }
 

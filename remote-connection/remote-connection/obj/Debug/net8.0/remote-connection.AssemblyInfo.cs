@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("remote-connection")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30bb2f88c33819cf0767d488bf22a0349cc75c55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+026a7606f24d1b4987f867a332e97ba442a5e375")]
 [assembly: System.Reflection.AssemblyProductAttribute("remote-connection")]
 [assembly: System.Reflection.AssemblyTitleAttribute("remote-connection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
