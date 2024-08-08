@@ -33,35 +33,33 @@ server.IPEndPoint = ipEndPoint;
 Console.WriteLine("New chat session...");
 Console.WriteLine("Are you a client or server");
 
-string role = Console.ReadLine() ?? "";
-
 //Reading if its a client or server
+string role = Console.ReadLine() ?? "";
 if (role == "client")
 {
+    //Getting the Username
     Console.WriteLine("Please enter a username: ");
     client.Username = Console.ReadLine() ?? "Default User";
 
+
+    //connecting to the server
     await client.connectToServerAsync();
 
     //thread to listen for incomming messages
     new Thread(async() => { while(true) await client.receiveMessageAsync(); }).Start();
 
+
+    //Sending user messages to the server
     while (true)
     {
-        Console.Write("You: ");
+        
         var message = Console.ReadLine() ?? "";
         await client.sendStream(message);       
-        //break;
     }
 
-
-
-
-
-    client.ClientSocket.Shutdown(SocketShutdown.Both);
 }
 
-
+//Logic is done on the server class
 else if (role == "server")
 {   
     await server.startServer();

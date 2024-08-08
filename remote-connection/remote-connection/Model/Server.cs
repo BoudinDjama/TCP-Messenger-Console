@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Sockets;
+﻿using System.Net.Sockets;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
 using System.Text.Json;
 
 namespace remote_connection.Model
@@ -33,6 +29,7 @@ namespace remote_connection.Model
                 {
                     Socket Handler = await ServerSocket.AcceptAsync();
                     Client c = await getClient(Handler);
+                    await notifyClientConnected(c);
                     Clients.Add(Handler);
                     Console.WriteLine($"Accepted connection from {c.Username}");
                    
@@ -47,7 +44,22 @@ namespace remote_connection.Model
             }
         }
 
-        
+        private async Task notifyClientConnected(Client c)
+        {
+            if (Clients.Count > 0) 
+            {
+                foreach (Socket clientSocket in Clients)
+                {
+                    //Verifying that its not the sender
+                    c.Message = $"{c.Username} has connected to the server";
+                    c.Username = "";
+                        string jsonString = JsonSerializer.Serialize(c);
+                        var content = Encoding.UTF8.GetBytes(jsonString);
+                        await clientSocket.SendAsync(content);
+                    
+                }
+            }
+        }
 
         private async Task handleClient(Socket socket)
         {
@@ -61,10 +73,10 @@ namespace remote_connection.Model
 
         private async Task sendMessageAsyncToAll(Socket socket, Client client)
         {
-            //Displaying message to all connected clients
+            //Sending current client message to all connected clients
             foreach (Socket clientSocket in Clients)
             {
-                //Avoiding client sender receving his own message
+                //Verifying that its not the sender
                 if (!clientSocket.Equals(socket))
                 {
                     string jsonString = JsonSerializer.Serialize(client);

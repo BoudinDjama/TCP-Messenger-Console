@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\aboudin\\Downloads\\Chatbox\\remote-connection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|c:\\users\\aboudin\\downloads\\chatbox\\remote-connection\\remote-connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|solutionrelative:remote-connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|c:\\users\\aboudin\\downloads\\chatbox\\remote-connection\\remote-connection\\model\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|solutionrelative:remote-connection\\model\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|c:\\users\\aboudin\\downloads\\chatbox\\remote-connection\\remote-connection\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|solutionrelative:remote-connection\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|c:\\users\\aboudin\\downloads\\chatbox\\remote-connection\\remote-connection\\model\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|solutionrelative:remote-connection\\model\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|c:\\users\\aboudin\\downloads\\chatbox\\remote-connection\\remote-connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A52013C-8895-4C20-83DE-6AD5544B1D33}|remote-connection\\remote-connection.csproj|solutionrelative:remote-connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aboudin\\Downloads\\Chatbox\\remote-connection\\remote-connection\\Program.cs",
               "RelativeDocumentMoniker": "remote-connection\\Program.cs",
               "ToolTip": "C:\\Users\\aboudin\\Downloads\\Chatbox\\remote-connection\\remote-connection\\Program.cs",
               "RelativeToolTip": "remote-connection\\Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAtAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T13:05:22.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\aboudin\\Downloads\\Chatbox\\remote-connection\\remote-connection\\Model\\Server.cs",
               "RelativeDocumentMoniker": "remote-connection\\Model\\Server.cs",
               "ToolTip": "C:\\Users\\aboudin\\Downloads\\Chatbox\\remote-connection\\remote-connection\\Model\\Server.cs",
               "RelativeToolTip": "remote-connection\\Model\\Server.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAiwEYAAABDAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwDIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T19:44:40.051Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "remote-connection\\Model\\Client.cs",
               "ToolTip": "C:\\Users\\aboudin\\Downloads\\Chatbox\\remote-connection\\remote-connection\\Model\\Client.cs",
               "RelativeToolTip": "remote-connection\\Model\\Client.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAUwDoAAAAtAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAUwD4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T19:45:12.527Z",
               "EditorCaption": ""
