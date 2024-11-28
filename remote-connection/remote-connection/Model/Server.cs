@@ -10,26 +10,35 @@ namespace remote_connection.Model
         public Socket ServerSocket { get; set; }
         public IPEndPoint IPEndPoint { get; set; }
         public List<Socket> Clients { get; set; }
-        public Client Client { get; set; }
+
 
         public Server()
         {
             Clients = new List<Socket>();
         }
 
+        //Start server async
         public async Task startServer()
         {
             try
             {
+                //Bind server socket to the endpoint and Listen for connections
                 ServerSocket.Bind(IPEndPoint);
                 ServerSocket.Listen(100);
                 Console.WriteLine("Waiting for connection...");
 
                 while (true)
                 {
+                    //Accept a new client connection
                     Socket Handler = await ServerSocket.AcceptAsync();
+                    
+                    //Get client details
                     Client c = await getClient(Handler);
+
+                    //Notify all clients of the new connection
                     await notifyClientConnected(c);
+
+                    //Add the new client to the list of clients
                     Clients.Add(Handler);
                     Console.WriteLine($"Accepted connection from {c.Username}");
                    
@@ -40,10 +49,12 @@ namespace remote_connection.Model
             }
             catch (SocketException se)
             {
+                //Handle error
                 Console.WriteLine($"Socket error: {se.Message}");
             }
         }
 
+        //Method to notify all clients of the new client
         private async Task notifyClientConnected(Client c)
         {
             if (Clients.Count > 0) 
@@ -61,6 +72,7 @@ namespace remote_connection.Model
             }
         }
 
+        //Method to handle communication between clients
         private async Task handleClient(Socket socket)
         {
 
@@ -71,6 +83,7 @@ namespace remote_connection.Model
             }
         }
 
+        //Method to send message to all clients except self 
         private async Task sendMessageAsyncToAll(Socket socket, Client client)
         {
             //Sending current client message to all connected clients
@@ -86,7 +99,7 @@ namespace remote_connection.Model
             }
         }
 
-        
+        //Method to get client details from socket
         private async Task<Client> getClient(Socket socket)
         {       
             
@@ -95,6 +108,8 @@ namespace remote_connection.Model
                 return JsonSerializer.Deserialize<Client>(Encoding.UTF8.GetString(buffer, 0, bytesRead));
             
         }
+
+        //Method to receive a message from client
         private async Task<Client> receiveMessageAsync(Socket socket)
         {
             
@@ -106,6 +121,7 @@ namespace remote_connection.Model
 
         }
 
+        //I wonder what this method does
         public void endSession()
         {
             ServerSocket.Close();
