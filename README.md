@@ -3,7 +3,7 @@
 A C# Console app that enables real-time communication between two or more clients via a TCP server.
 
 **Purpose**    
-its real purpose isn't to impress—it's to learn, experiment, and understand how sockets, networking protocols, and client-server communication actually work. My goal in building this was to strengthen my foundational knowledge of networking and systems administration.
+Its real purpose isn't to impress. It's to learn, experiment, and understand how sockets, networking protocols, and client-server communication actually work. My goal in building this was to strengthen my foundational knowledge of networking and systems administration.
 
 **Features**  
 TCP server for peer-to-peer messaging.  
